@@ -13,6 +13,7 @@ Landing Screen / Main page:
 <img src="http://i.imgur.com/VLvd5Uu.png" width="400">
 
 Contact Page:
+
 <img src="http://i.imgur.com/uRSgNji.png" width="400">
 
 
