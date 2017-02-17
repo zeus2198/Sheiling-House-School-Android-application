@@ -6,14 +6,13 @@ This is an android based application and was made for [Comfest](http://comfest.i
 # **Some pics of app in action**
 Loading screen :
 
-<img src="http://i.imgur.com/BhjKjNN.png" width="100">
+<img src="http://i.imgur.com/BhjKjNN.png" width="400">
 
 Landing Screen / Main page:
 
-![Landing screen](http://i.imgur.com/VLvd5Uu.png"Lading Screen")
+<img src="http://i.imgur.com/VLvd5Uu.png" width="400">
 
 Contact Page:
-
-![Contact Page](http://i.imgur.com/uRSgNji.png"Contact Page")
+<img src="http://i.imgur.com/uRSgNji.png" width="400">
 
 
