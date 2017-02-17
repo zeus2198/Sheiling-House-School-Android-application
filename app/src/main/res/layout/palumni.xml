@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Alumnus Details"
+            android:id="@+id/halumni"
+            android:textColor="#fff"
+            android:background="@color/maincolor"
+            android:padding="10dp"
+            android:layout_marginTop="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/atable"
+            android:translationZ="2dp"
+            android:layout_below="@id/halumni"           
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/a1"
+                    android:background="@drawable/tborder"
+                    android:textColor="#fff"
+                    android:textAlignment="center"
+                    android:padding="5dp"
+                    android:fontFamily="sans-serif"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+
+                    />
+                <TextView
+                    android:text="@string/a2"
+                    android:textColor="#fff"
+                    android:background="@drawable/tborder"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/a3"
+                    android:background="@drawable/tborder"
+                    android:textColor="#fff"
+                    android:textAlignment="center"
+                    android:padding="5dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingTop="30dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+
+                    />
+                <TextView
+                    android:text="@string/a4"
+                    android:textColor="#fff"
+                    android:background="@drawable/tborder"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/a5"
+                    android:background="@drawable/tborder"
+                    android:textColor="#fff"
+                    android:textAlignment="center"
+                    android:padding="5dp"
+                    android:fontFamily="sans-serif"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+
+                    />
+                <TextView
+                    android:text="@string/a6"
+                    android:textColor="#fff"
+                    android:background="@drawable/tborder"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/a7"
+                    android:background="@drawable/tborder"
+                    android:textColor="#fff"
+                    android:textAlignment="center"
+                    android:padding="5dp"
+                    android:fontFamily="sans-serif"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+
+                    />
+                <TextView
+                    android:text="@string/a8"
+                    android:textColor="#fff"
+                    android:background="@drawable/tborder"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+
+                    />
+            </TableRow>
+
+        </TableLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/atable"
+            android:layout_alignEnd="@id/atable"
+            android:layout_alignTop="@id/atable"
+            android:layout_alignBottom="@id/atable"
+            android:scaleType="fitXY"
+
+            android:src="@drawable/tbg2"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>

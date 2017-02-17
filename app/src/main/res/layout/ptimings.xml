@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:paddingBottom="30dp" android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="School Timings"
+        android:id="@+id/htiming"
+        android:textColor="#fff"
+        android:background="@color/maincolor"
+        android:padding="10dp"
+        android:layout_marginTop="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"/>
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_below="@id/htiming"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/h1"
+            android:layout_span="3"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#c1252a"
+            android:padding="5dp"
+            android:text="PLAY GROUP"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+
+        <TableRow
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:background="#222"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Summer"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:text="8:00am"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:text="11:00am"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:background="#444"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="Winter"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:text="9:30am"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:text="12:15pm"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+    </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/h2"
+                android:layout_span="3"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#c1252a"
+                android:padding="5dp"
+                android:text="NURSERY AND PREP"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:background="#222"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Summer"
+                android:fontFamily="sans-serif"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:textAlignment="center"
+                android:text="8:00am"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:textAlignment="center"
+                android:text="12:15pm"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:background="#444"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Winter"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:text="9:30am"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:textAlignment="center"
+                android:text="12:30pm"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/h3"
+                android:layout_span="3"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#c1252a"
+                android:padding="5dp"
+                android:text="I - IV"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:background="#222"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Summer"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:text="7:20am"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:text="1:10pm"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:background="#444"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Winter"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:text="8:45am"
+                android:fontFamily="sans-serif"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:text="2:00pm"
+                android:fontFamily="sans-serif"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/h4"
+                android:layout_span="3"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#c1252a"
+                android:padding="5dp"
+                android:text="V - XII"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:background="#222"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Summer"
+                android:fontFamily="sans-serif"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:text="7:10am"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:text="1:10pm"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:background="#444"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Winter"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:text="8:10am"
+                android:fontFamily="sans-serif"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:text="2:30pm"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+    </TableLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_centerHorizontal="true"
+        android:text="@string/timingnote"
+        android:layout_below="@id/table"/>
+
+
+
+</RelativeLayout>
+</ScrollView>

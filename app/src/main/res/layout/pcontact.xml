@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Contact Us"
+            android:id="@+id/hcontact"
+            android:textColor="#fff"
+            android:background="@color/maincolor"
+            android:padding="10dp"
+            android:layout_marginTop="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Address:"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/hcontact"
+            android:id="@+id/hcontact2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/addr"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000"
+            android:layout_below="@id/hcontact2"
+            android:fontFamily="sans-serif"
+            android:text="@string/address"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Email:"
+            android:id="@+id/hcontact3"
+            android:layout_alignTop="@+id/hcontact2"
+            android:layout_alignStart="@+id/textView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="info@shskanpur.com"
+            android:id="@+id/textView3"
+           android:layout_marginRight="25dp"
+            android:fontFamily="sans-serif"
+            android:layout_alignTop="@+id/addr"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Social Links:"
+            android:layout_alignStart="@+id/textView3"
+            android:id="@+id/hcontact4"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="25dp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:scaleType="fitXY"
+            android:layout_height="50dp"
+            android:id="@+id/imageButton"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/hcontact4"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/fb"
+            android:background="#0000"
+            />
+
+
+        <fragment
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@id/addr"
+                android:layout_marginTop="60dp"
+                android:id="@+id/map"
+                tools:context=".page_contact"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                />
+
+
+    </RelativeLayout>
+</ScrollView>

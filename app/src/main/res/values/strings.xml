@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">SHS</string>
+    <string name="title_activity_nav">nav</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="timingnote"><b><font color="@colors/maincolor">*</font></b> These timings are only applicable for session 2016 - 17.</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">\"In this era of globalization, the parameters of education have changed and broadened to a large extent. Book learning is no longer the accepted norm. We at Sheiling House School, endeavour to provide an all round development and sound moral base both, in the disciplined confines of the class room and the energetic sports sessions.\"
+
+\n\nSheiling House School comprises of two academic blocks – Junior Wing and Senior Wing. the Junior Wing has Pre-Primary and Primary classes from I to IV. The Senior Wing has classes from V to XII.
+
+\n\nOur flowering buds, barely three, are bewildered and hesitant to leave the warm surroundings at home but they walk into Sheiling House and are totally absorbed into its welcoming arms feeling safe and assured.
+
+\n\nThe peaceful environment, the greenery all around, smiling teachers, energetic students – the world is vibrant with colourful hues where there is room for growth in all the fields – educational, social and physical.
+
+\n\nStudents from P.G. to class IV all come together and absorb this constant flow of knowledge.
+
+\n\nThe teachers use play way, child friendly methods in the pre-primary sections, whereas classes I to IV are more subject based but quite modern with the aid of e-teaching.
+
+\n\nFun Toot the answer to their mathematical hurdles emphasizing on clear concepts and lots of practice.
+
+\n\n<b>Music, Art and Games</b> are our children’s constant companions with great emphasis on the development of their artistic skills.
+
+\n\nIn the Senior Wing we aim at nurturing the inquisitive spirit of the children and encourage their scientific temperament enabling them to reach their fullest potential.
+
+\n\nWhether it is at <b>examinations, drama, debates, quiz, music or sports,</b> we aim to produce eminent personalities who shall carve a special niche for themselves in their personal and professional lives.</string>
+    <string name="a1">\n\nFarman Kazmi\n
+
+2000\n
+
+Jaipur,India\n
+
+Working As AGM (Sales)\n With A Renowned Real\n Estate Company\n At Jaipur!\n\n</string>
+     <string name="a2">\n\nINAMUL HASAN\n
+
+1978-79\n
+
+KANPUR,India\n
+
+Business Of Leather\n Tanning\n Chemicals And Real Estate.\n\n\n</string>
+     <string name="a3">\n\nManish Kapoor\n
+
+1991\n
+
+Kanpur,India\n
+
+Retail And Real\n Estate Consultant\n\n</string>
+     <string name="a4">\n\nAndrew Yadav\n
+
+1982\n
+
+Noida,India\n
+
+Serving As A\n Clergy Man\n\n</string>
+    <string name="a5">\n\nKushagra Srivastava\n
+
+2000\n
+
+Seattle,US\n
+
+Software Dev Manager\n In Amazon\n\n</string>
+    <string name="a6">\n\nPoonam Garg\n
+
+2006\n
+
+Ghaziabad,India\n
+
+Accenture\n\n\n</string>
+    <string name="a7">\n\nGAURAV SARIA\n
+
+1994\n
+
+Panipat,India\n
+
+We Are Importers / Dealers\n Of Textile Machineries\n and Spares.\n\n</string>
+    <string name="a8">\n\nAnil Kumar Agarwal\n
+
+1982\n
+
+Kanpur,India\n
+
+Promoter Of Kanpur\n Institute Of\n Technology\n\n</string>
+    <string name="address">\n\nSenior Wing:\n\n
+
+Zoe Ville, 10/498, Allenganj,\nKanpur\n
+Phone : 2548671, 2549741\n\n
+
+Junior Wing:\n\n
+
+14/95, Civil Lines,\nKanpur - 208 001\n
+Phone : 2530678\n\n</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:checked="true"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_timings"
+            android:icon="@drawable/ic_clock"
+            android:title="Timings" />
+        <item
+            android:id="@+id/nav_alumni"
+            android:icon="@drawable/ic_alumni"
+            android:title="Alumni" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contact"
+            android:title="Contact" />
+    </group>
+    <item
+        android:id="@+id/website"
+        android:icon="@drawable/ic_goto"
+        android:title="Visit Website"
+    />
+</menu>
